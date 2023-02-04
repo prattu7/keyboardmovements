@@ -54,9 +54,9 @@ public class RightClick {
 		robot.keyRelease(KeyEvent.VK_DOWN);
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
-//		action.sendKeys(Keys.ARROW_DOWN,Keys.ARROW_DOWN,Keys.ARROW_DOWN);
-//		Thread.sleep(1000);
-//		action.sendKeys(Keys.ENTER).build().perform();
+		action.sendKeys(Keys.ARROW_DOWN,Keys.ARROW_DOWN,Keys.ARROW_DOWN);
+		Thread.sleep(1000);
+		action.sendKeys(Keys.ENTER).build().perform();
 		
 
 	}
